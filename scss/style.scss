@@ -47,6 +47,8 @@ $skrimArtistCard: linear-gradient(180deg, rgba(255, 255, 255, 0) 42.71%, #FFFFFF
 $navItemLinkColor: $gray400;
 $navItemLinkActive: $gray600;
 
+$shadowCard: drop-shadow(0px 4px 14px rgba(0, 0, 0, 0.25));
+
 
 // https://webdesign.tutsplus.com/tutorials/watch-and-compile-sass-in-five-quick-steps--cms-28275
 // https://github.com/jonsuh/hamburgers#sass
@@ -67,6 +69,7 @@ $headerMarginXl: 50px;
 @import 'components/_footer';
 @import 'components/_forms';
 @import 'components/_header';
+@import 'components/artworks';
 // hamburger
 @import 'hamburgers/hamburgers';
 // fixes
