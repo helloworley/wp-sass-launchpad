@@ -1,0 +1,11 @@
+/*///////////////////////////////////////////////////////////////////////////////
+Layout
+*/
+
+
+#main .elementor-column-gap-default>.elementor-column>.elementor-element-populated {
+  padding: 20px;
+}
+#main .elementor-widget:not(:last-child) {
+  margin-bottom: 0;
+}

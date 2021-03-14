@@ -1,0 +1,82 @@
+$white: #FFFFFF;
+$gray100:#F5F5F5;
+$gray200: #D6D7D6;
+$gray300: #B7B8B7;
+$gray400: #989A98;
+$gray500: #797C79;
+$gray600: #5B5D5B;
+$gray700: #3D3E3D;
+$gray800: #1E1F1E;
+
+$roseGold: #DEB9A8;
+
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;
+$siteMaxWidth: 1560px;
+
+$smBaseUnit: 16px;
+$mdBaseUnit: 16px;
+$lgBaseUnit: 24px;
+$xlBaseUnit: 64px;
+
+$smSectionPadding: 40px $smBaseUnit;
+$mdSectionPadding: 40px $mdBaseUnit;
+$lgSectionPadding: 80px $lgBaseUnit;
+$xlSectionPadding: 120px $xlBaseUnit;
+
+$columnGapSm: $smBaseUnit;
+$columnGapMd: $mdBaseUnit;
+$columnGapLg: $lgBaseUnit; 
+$columnGapXl: 32px;
+
+$centeredMaxWidth: 1560px;
+
+$fontHeading: 'Cormorant Garamond', serif;  
+$fontText: 'Fira Sans', sans-serif;
+
+$transitionDefault: opacity ease .3s;
+
+$darkBorder: solid 1px $gray600;
+$lightBorder: solid 1px $gray400;
+$skrim: rgba( 255, 255, 255, .95);
+$skrimArtistCard: linear-gradient(180deg, rgba(255, 255, 255, 0) 42.71%, #FFFFFF 100%);
+
+$navItemLinkColor: $gray400;
+$navItemLinkActive: $gray600;
+
+
+// https://webdesign.tutsplus.com/tutorials/watch-and-compile-sass-in-five-quick-steps--cms-28275
+// https://github.com/jonsuh/hamburgers#sass
+
+
+
+$headerMarginSm: 30px;
+$headerMarginXl: 50px;
+
+
+@import '_theme-info';
+@import '_normalize';
+@import '_type';
+// pages
+// layouts
+@import 'layout/_layout_centered';
+// components
+@import 'components/_footer';
+@import 'components/_forms';
+@import 'components/_header';
+// hamburger
+@import 'hamburgers/hamburgers';
+// fixes
+@import 'elementor/fixes';
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+}
+

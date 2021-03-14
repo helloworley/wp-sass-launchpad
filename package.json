@@ -1,0 +1,27 @@
+{
+  "name": "wordpress-theme-basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css-compile": "node-sass --output wordpress-theme-basic/ scss/style.scss",
+    "css-watch": "npm run css-compile && npm run css-compile -- -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stagfoo/namonai-wp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stagfoo/namonai-wp/issues"
+  },
+  "homepage": "https://github.com/stagfoo/namonai-wp#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta2",
+    "feather-icons": "^4.28.0",
+    "magic-grid": "^3.2.4",
+    "node-sass": "^5.0.0",
+    "normalize-scss": "^7.0.1"
+  }
+}

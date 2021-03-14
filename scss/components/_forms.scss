@@ -1,0 +1,116 @@
+/*///////////////////////////////////////////////////////////////////////////////
+Forms
+*/
+
+#main .elementor-column-gap-wider>.elementor-column>.elementor-element-populated {
+  padding: 20px;
+}
+
+.wpforms-submit-container {
+  text-align: center;
+}
+
+div.wpforms-container-full {
+  .wpforms-form {
+    input[type=submit], 
+    button[type=submit], 
+    .wpforms-page-button {
+      background-color: $gray500;
+      border-radius: 10px;
+      color: $white;
+      padding: 15px 30px;
+      font-family: "Spectral SC", sans-serif;
+      font-weight: 300;
+      margin-top: 30px;
+
+      &:hover {
+        background-color: $gray600;
+      }
+    }
+  } 
+}
+
+#main {
+  input,
+  textarea {
+    background: $gray100;
+    border: 1px solid $gray200;
+    border-radius: 10px;
+  }
+
+  label {
+    font-family: $fontHeading;
+    font-weight: 300;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  input[type=submit] {
+    background-color: $gray500;
+    border-radius: 10px;
+    color: $white;
+    padding: 15px 30px;
+    font-family: $fontHeading;
+    font-weight: 300;
+    margin-top: 30px;
+  
+    &:hover {
+      background-color: $gray600;
+    }
+  }
+
+  .input-with-submit {
+    width: 100%;
+    display: flex;
+    max-width: 550px;
+    margin: 0 auto;
+
+    input[type=email] {
+      border-radius: 10px;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      border-right: none;
+      padding: 0 20px;
+      width: 70%;
+      height: 50px;
+    }
+    input[type=submit] {
+      border-bottom-left-radius: 0;
+      border-top-left-radius: 0;
+      padding: 0;
+      height: 50px;
+      margin: 0;
+      width: 30%;
+    }
+  }
+
+  #newsletter-signup {
+    margin-top: 40px;
+    label {
+      max-width: 550px;
+      margin: 0 auto;
+    }
+  }
+
+  .mc4wp-response {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: $gray400;
+  }
+}
+
+
+@media(min-width: $md) {
+  #main {
+    .input-with-submit {
+      input[type=email] {
+        width: 80%;
+      }
+      input[type=submit] {
+        width: 20%;
+      }
+    }
+  }  
+}
+

@@ -1,0 +1,28 @@
+/*///////////////////////////////////////////////////////////////////////////////
+Type
+*/
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $fontHeading;
+}
+
+#main {
+  h2 {
+    margin: 10px 0 40px;
+  }
+
+  h3 {
+    margin: 10px 0 30px;
+  }
+}
+
+
+
+@media(min-width: $lg) {
+
+  #main {
+    h2 {
+      margin: 20px 0 40px;
+    }
+  }
+}

@@ -1,0 +1,56 @@
+.layout-centered {
+
+  .layout-centered-inner {
+    margin: 40px auto 120px;
+    padding: 0 $smBaseUnit;
+    box-sizing: border-box;
+
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: bold;
+      span {
+        font-weight: bold !important;
+      }
+    }
+    h2 {
+      margin-top: 64px;
+    }
+    h3, h4 {
+      margin-top: 32px;
+    }
+  }
+}
+
+@media(min-width: $md) {
+  .layout-centered {
+    .layout-centered-inner {
+      padding: 0 $mdBaseUnit;
+    }
+  }
+}
+
+
+@media(min-width: $lg) {
+  .layout-centered {
+    .layout-centered-inner {
+      padding: 40px $lgBaseUnit;
+      max-width: $centeredMaxWidth;
+      margin: 0 auto;
+      &.narrow {
+        max-width: 960px;
+      }
+    }
+    &.page {
+      .layout-centered-inner {
+        padding-bottom: 120px;
+      }
+    }
+  }
+}
+
+@media(min-width: $xl) {
+  .layout-centered {
+    .layout-centered-inner {
+      padding: 40px $xlBaseUnit;
+    }
+  }
+}
