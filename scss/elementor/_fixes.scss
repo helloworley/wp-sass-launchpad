@@ -9,4 +9,8 @@ body {
       max-width: 1440px;
     }
   }
+
+  .attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
+    height: auto !important;
+  }
 }

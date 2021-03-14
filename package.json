@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "css-compile": "node-sass --output wordpress-theme-basic/ scss/style.scss",
+    "css-compile": "node-sass --output wordpress-theme/ scss/style.scss",
     "css-watch": "npm run css-compile && npm run css-compile -- -w"
   },
   "repository": {
