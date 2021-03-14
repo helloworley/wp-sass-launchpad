@@ -1,0 +1,42 @@
+#page-artwork {
+
+  .artwork-img-container {
+    margin-top: 20px;
+    display: inline-block;
+  }
+  
+  .artwork-info {
+    max-width: 600px;
+    margin: 30px auto 0;
+    h1 {
+      color: $gray500;
+    }
+    p, li, span {
+      font-weight: 300;
+      color: $gray600;
+    }
+  }
+}
+
+@media(min-width: $lg) {
+  #page-artwork {
+    .artwork-img-container {
+      text-align: center;
+      img {
+        max-height: 90vh;
+        width: auto !important;
+        max-width: 80% !important;
+        height: auto !important;
+      }
+    }
+
+    .artwork-wrapper {
+      display: grid;
+      grid-template-columns: .7fr .3fr;
+      grid-gap: 30px;
+      align-items: center;
+      margin: 0 auto 80px;
+      min-height: 80vh;
+    }
+  } 
+}

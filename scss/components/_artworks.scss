@@ -24,7 +24,7 @@
 }
 
 
-@media(min-width: $md) {
+@media(min-width: $lg) {
   #artworks {
     .artworks-grid {
       grid-template-columns: repeat(3, 1fr);
