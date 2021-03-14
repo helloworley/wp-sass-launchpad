@@ -94,9 +94,8 @@ $lgAsideWidth: 20%;
 }
 
 @media(min-width: $xl) {
-  .right-navigation-layout {
-    grid-template-columns: .2fr .8fr;
-    grid-column-gap: 80px;
+  .layout-right-nav {
+    grid-column-gap: 120px;
     padding: 120px $xlBaseUnit 120px;
   } 
 }

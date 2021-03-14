@@ -18,8 +18,8 @@ $xxl: 1400px;
 $siteMaxWidth: 1560px;
 
 $smBaseUnit: 16px;
-$mdBaseUnit: 16px;
-$lgBaseUnit: 24px;
+$mdBaseUnit: 24px;
+$lgBaseUnit: 32px;
 $xlBaseUnit: 64px;
 
 $smSectionPadding: 40px $smBaseUnit;
@@ -71,7 +71,8 @@ $headerMarginXl: 50px;
 @import 'components/_footer';
 @import 'components/_forms';
 @import 'components/_header';
-@import 'components/artworks';
+@import 'components/_artworks';
+@import 'components/_blog_post';
 // hamburger
 @import 'hamburgers/hamburgers';
 // fixes

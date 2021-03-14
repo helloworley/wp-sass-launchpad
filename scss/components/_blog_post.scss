@@ -1,0 +1,35 @@
+.blog-post {
+  h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  img {
+    margin-bottom: 20px;
+  } 
+  .blog-post-info {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px $gray200;
+    margin-bottom: 40px;
+    h3, p {
+      font-family: $fontHeading;
+      font-size: 14px;
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+  }
+  .blog-post-content {
+    max-width: 515px;
+    margin: 0 auto;
+  }
+  
+}
+
+
+@media(min-width: $xl) {
+  .blog-post {
+    .blog-post-content {
+      max-width: 800px;
+    }
+  } 
+}
