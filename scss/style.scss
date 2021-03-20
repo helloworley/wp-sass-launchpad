@@ -44,6 +44,8 @@ $lightBorder: solid 1px $gray400;
 $skrim: rgba( 255, 255, 255, .95);
 $skrimArtistCard: linear-gradient(180deg, rgba(255, 255, 255, 0) 42.71%, #FFFFFF 100%);
 
+$skrimDark: rgba(0, 0, 0, 0.5);
+
 $navItemLinkColor: $gray400;
 $navItemLinkActive: $gray600;
 
@@ -73,6 +75,7 @@ $headerMarginXl: 50px;
 @import 'components/_header';
 @import 'components/_artworks';
 @import 'components/_blog_post';
+@import 'components/_contact_modal';
 // hamburger
 @import 'hamburgers/hamburgers';
 // fixes
