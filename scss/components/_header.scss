@@ -306,10 +306,15 @@ header#masthead {
         ul {
           li {
             display: inline-block;
-            
+            &:hover {
+              a {
+                color: $roseGold !important;
+              }
+            }
             a {
               font-size: 14px !important;
               color: $gray600;
+              transition: color ease .3s;
             }
           }
         }
