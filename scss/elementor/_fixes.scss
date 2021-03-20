@@ -13,4 +13,13 @@ body {
   .attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
     height: auto !important;
   }
+
+  .elementor-image {
+    img {
+      height: auto !important;
+      max-width: 100% !important;
+      max-height: 80vh !important;
+      width: auto !important;
+    }
+  }
 }
