@@ -21,6 +21,7 @@ div.wpforms-container-full {
       font-weight: bold;
       border: solid 1px $roseGold;
       width: 100%;
+      transition: background-color ease .4s;
 
       &:hover {
         background-color: $roseGold;
