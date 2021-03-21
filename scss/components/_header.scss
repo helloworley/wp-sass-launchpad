@@ -81,7 +81,6 @@ header#masthead {
         margin: 0;
         li {
           list-style: none;
-          margin-bottom: 12px;
           padding: 5px 0;
           a {
             text-decoration: none;
@@ -98,7 +97,7 @@ header#masthead {
 
   .logo-mobile-nav {
     text-align: center;
-    margin: 0 0 $mobileMarginGap;
+    margin: 0 0 30px;
 
     img {
       max-width: 140px;
@@ -127,7 +126,11 @@ header#masthead {
     align-items: center;
 
     h2 {
-      color: $gray500;
+      color: $gray400;
+      border: none;
+      margin: 0;
+      padding: 0;
+      margin-top: 5px;
     }
 
     .header-menu-items-inner {
@@ -139,7 +142,7 @@ header#masthead {
     &.open {
       top: 0;
       .header-menu-items-inner {
-        padding: 80px 40px 40px;
+        padding: 0 40px;
       }
     }
     &.closed {
