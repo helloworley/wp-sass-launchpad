@@ -1,12 +1,30 @@
 #artworks {
   .artwork-example {
     margin-bottom: 50px;
-    filter: $shadowCard;
+    &:hover {
+      img {
+        filter: $shadowCardFocus;
+      }
+    }
     .artwork-title {
       margin-top: 20px;
     }
     img {
       height: auto !important;
+      filter: $shadowCard;
+      transition: filter ease-in .3s;
+    }
+    .artwork-example-info {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+      h3, h4 {
+        margin: 0;
+        color: $gray500;
+      }
+      h4 {
+        font-size: 14px;
+      }
     }
   }  
 }
@@ -17,8 +35,6 @@
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       grid-gap: 40px;
-      .artwork-example {
-      }
     }
   } 
 }
